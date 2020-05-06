@@ -1,18 +1,10 @@
-function entryJsonInHtml(jsonData) {
-    output_en = entryJsonInHtmlEn(jsonData);
-    document.getElementById("trainees-en").innerHTML = output_en;
-
-    output_km = entryJsonInHtmlKm(jsonData);
-    document.getElementById("trainees-km").innerHTML = output_km;
-}
-
 // Entry data from JSON to Page:Data literacy > Section: Trainees in English langauge 
 function entryJsonInHtmlEn(jsonData) {
     var output = "";
     var trainees = jsonData;
+    var j = 0;
 
     output +=
-        '<div class="trainees">' +
         '<!-- Trainees Anchor -->' +
         '<span id="trainees" style="display: block; position: relative; top: -50px; visibility: hidden;"></span>' +
         '<h2>Trainees</h2>';
@@ -23,6 +15,7 @@ function entryJsonInHtmlEn(jsonData) {
         var trainee = trainees[i];
 
         if (trainee.is_ready == "yes") {
+            j++;
 
             output +=
                 '<div class="four columns">' +
@@ -44,20 +37,26 @@ function entryJsonInHtmlEn(jsonData) {
                 '<div class="modal-header">' +
                 '<a href="#modal-close" title="Close" class="modal-close"> &times; </a>' +
                 '<h3>' + trainee.name_en + '</h3>' +
-                '<p>' + '<strong>' + trainee.position_en + '</strong>' + '<br>' + trainee.organization_en + '</p>' +
+                '<p>' + '<strong>' + trainee.position_en + '</strong>' + '<br><em>' + trainee.organization_en + '</em></p>' +
                 '</div>' +
                 '<div class="modal-body">' +
                 '<p>' + trainee.bio_en + '</p>' +
-                '</div>' +
-                '<div class="modal-footer">' +
-                '<a target="_blank" href="' + trainee.projectUrl + '">' +
-                'View the project' +
-                '</a>' +
-                '</div>' +
+                '</div>';
+
+            if (trainee.projectUrl = ! '-') {
+                output +=
+                    '<div class="modal-footer">' +
+                    '<a target="_blank" href="' + trainee.projectUrl + '">' +
+                    'View the project' +
+                    '</a>' +
+                    '</div>';
+            }
+
+            output +=
                 '</div>' +
                 '</div>';
 
-            if ((i + 1) % 4 == 0 && i > 2) {
+            if (j % 4 == 0) {
                 output +=
                     '</div>' +
                     '<div class="row">';
@@ -66,19 +65,18 @@ function entryJsonInHtmlEn(jsonData) {
     }
 
     output +=
-        '</div>' +
         '</div>';
 
-    return output;
+    document.getElementById("trainees-section").innerHTML = output;
 }
 
 // Entry data from JSON to Page:Data literacy > Section: Trainees in Khmer langauge
 function entryJsonInHtmlKm(jsonData) {
     var output = "";
     var trainees = jsonData;
+    var j = 0;
 
     output +=
-        '<div class="trainees">' +
         '<!-- Trainees Anchor -->' +
         '<span id="trainees" style="display: block; position: relative; top: -50px; visibility: hidden;"></span>' +
         '<h2>សិក្ខាកាម</h2>';
@@ -90,6 +88,7 @@ function entryJsonInHtmlKm(jsonData) {
         var trainee = trainees[i];
 
         if (trainee.is_ready == "yes") {
+            j++;
 
             output +=
                 '<div class="four columns">' +
@@ -111,20 +110,26 @@ function entryJsonInHtmlKm(jsonData) {
                 '<div class="modal-header">' +
                 '<a href="#modal-close" title="Close" class="modal-close"> &times; </a>' +
                 '<h3>' + trainee.name_km + '</h3>' +
-                '<p>' + '<strong>' + trainee.position_km + '</strong>' + '<br>' + trainee.organization_km + '</p>' +
+                '<p>' + '<strong>' + trainee.position_km + '</strong>' + '<br><em>' + trainee.organization_km + '</em></p>' +
                 '</div>' +
                 '<div class="modal-body">' +
                 '<p>' + trainee.bio_km + '</p>' +
-                '</div>' +
-                '<div class="modal-footer">' +
-                '<a target="_blank" href="' + trainee.projectUrl + '">' +
-                'View the project' +
-                '</a>' +
-                '</div>' +
+                '</div>';
+
+            if (trainee.projectUrl != "-") {
+                output +=
+                    '<div class="modal-footer">' +
+                    '<a target="_blank" href="' + trainee.projectUrl + '">' +
+                    'View the project' +
+                    '</a>' +
+                    '</div>';
+            }
+
+            output +=
                 '</div>' +
                 '</div>';
 
-            if ((i + 1) % 4 == 0 && i > 2) {
+            if (j % 4 == 0) {
                 output +=
                     '</div>' +
                     '<div class="row">';
@@ -133,8 +138,7 @@ function entryJsonInHtmlKm(jsonData) {
     }
 
     output +=
-        '</div>' +
         '</div>';
 
-    return output;
+    document.getElementById("trainees-section").innerHTML = output;
 }
