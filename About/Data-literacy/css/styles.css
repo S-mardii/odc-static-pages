@@ -1,0 +1,59 @@
+/* General */
+.custom-flex-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 640px),
+(min-device-width: 320px) and (max-device-width: 640px) {
+    .custom-flex-content {
+        display: block;
+    }
+}
+/* END: General */
+
+/* CSS Modal */
+.modal-background {
+    position: fixed;
+    background-color: rgba(200, 200, 200, 0.75);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.modal-background:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-content {
+    width: 80%;
+    top: 10%;
+    position: relative;
+    margin: 10% auto;
+    padding: 2rem;
+    background: #fff;
+}
+
+.modal-close {
+    line-height: 50px;
+    font-size: 100%;
+    position: absolute;
+    right: 1.5em;
+    text-align: right;
+    top: 0;
+    width: 10%;
+    text-decoration: none;
+}
+
+.profile-label {
+    text-align: center;
+    width: 100%;
+}

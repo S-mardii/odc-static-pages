@@ -1,4 +1,4 @@
-entryJsonInHtml(
+entryJsonInHtmlKm(
     [
         {
             "surname": "CHHORN",
@@ -73,7 +73,7 @@ entryJsonInHtml(
             "projectUrl": "-",
             "modalId": "dy-vutheara",
             "bio_en": "Data is important because it helps me to produce more attractive and reliable document for audience to see, so they are able to better understand the situation not only in Cambodia but also what happens in other regions and around the globe. I expect to learn where I can get data, how to use it in the way that can draw attention my audience to interest more in the issue that I try to share them. I would like to share this piece of document to my colleague and donor through the project that RECOFTC is working on called V4MF that focusing on forest governance, and to public person to be aware of what has been happening between women and forest governance and effort we have been trying to support the gender equality in forest management process and way forward.",
-            "bio_km": "“ទិន្នន័យមានសារសំខាន់ព្រោះវាជួយឱ្យខ្ញុំបង្កើតឯកសារគួរឱ្យទាក់ទាញ និងគួរឱ្យទុកចិត្តសម្រាប់ទស្សនិកជនដើម្បីពួកគេអាចយល់ច្បាស់ពីស្ថានភាពមិនត្រឹមតែនៅក្នុងប្រទេសកម្ពុជាទេ នៅជុំវិញពិភពលោកផងដែរ។ ខ្ញុំរំពឹងថាអាចចេះវិធីរកទិន្នន័យ និងវិធីដែលអាចទាក់ទាញចំណាប់អារម្មណ៍ទស្សនិកជនរបស់ខ្ញុំទៅលើបញ្ហាដែលខ្ញុំព្យាយាមចែកចាយទៅពួកគេ។ ខ្ញុំចង់ចែករំលែកឯកសារនេះទៅមិត្តរួមការងារ និងម្ចាស់ជំនួយរបស់ខ្ញុំតាមរយៈគំរោងដែល រីខូហ្វ កំពុងធ្វើដែលហៅថា V4MF ដែលផ្តោតលើអភិបាលកិច្ចព្រៃឈើ និងដើម្បីឱ្យសាធារណជនយល់ដឹងអំពីអ្វីដែលកំពុងកើតឡើងរវាងស្ត្រីនិងអភិបាលកិច្ចព្រៃឈើ ក៏ដូចជាការខិតខំរបស់យើងក្នុងសមភាពយេនឌ័រក្នុងដំណើរការគ្រប់គ្រងព្រៃឈើ។",
+            "bio_km": "ទិន្នន័យមានសារសំខាន់ព្រោះវាជួយឱ្យខ្ញុំបង្កើតឯកសារគួរឱ្យទាក់ទាញ និងគួរឱ្យទុកចិត្តសម្រាប់ទស្សនិកជនដើម្បីពួកគេអាចយល់ច្បាស់ពីស្ថានភាពមិនត្រឹមតែនៅក្នុងប្រទេសកម្ពុជាទេ នៅជុំវិញពិភពលោកផងដែរ។ ខ្ញុំរំពឹងថាអាចចេះវិធីរកទិន្នន័យ និងវិធីដែលអាចទាក់ទាញចំណាប់អារម្មណ៍ទស្សនិកជនរបស់ខ្ញុំទៅលើបញ្ហាដែលខ្ញុំព្យាយាមចែកចាយទៅពួកគេ។ ខ្ញុំចង់ចែករំលែកឯកសារនេះទៅមិត្តរួមការងារ និងម្ចាស់ជំនួយរបស់ខ្ញុំតាមរយៈគំរោងដែល រីខូហ្វ កំពុងធ្វើដែលហៅថា V4MF ដែលផ្តោតលើអភិបាលកិច្ចព្រៃឈើ និងដើម្បីឱ្យសាធារណជនយល់ដឹងអំពីអ្វីដែលកំពុងកើតឡើងរវាងស្ត្រីនិងអភិបាលកិច្ចព្រៃឈើ ក៏ដូចជាការខិតខំរបស់យើងក្នុងសមភាពយេនឌ័រក្នុងដំណើរការគ្រប់គ្រងព្រៃឈើ។",
             "wpImgUrl": "https://opendevelopmentcambodia.net/wp-content/uploads/sites/2/2020/05/dy-vutheara-min.jpg"
         },
         {
