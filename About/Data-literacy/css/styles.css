@@ -4,6 +4,17 @@
     justify-content: space-between;
 }
 
+.link-anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+.u-full-width td {
+    vertical-align: middle !important;
+}
+
 @media only screen and (max-width: 640px),
 (min-device-width: 320px) and (max-device-width: 640px) {
     .custom-flex-content {
