@@ -45,12 +45,16 @@
 }
 
 .modal-content {
-    width: 80%;
+    width: 60%;
     top: 10%;
     position: relative;
     margin: 10% auto;
     padding: 2rem;
     background: #fff;
+}
+
+.modal-body p {
+    line-height: 25px !important;
 }
 
 .modal-close {
