@@ -5,7 +5,7 @@ function entryJsonInHtmlEn(jsonData) {
     var j = 0;
 
     output +=
-        '<!-- Trainees Anchor -->' +
+        '<!-- Anchor - Trainees -->' +
         '<span id="trainees" style="display: block; position: relative; top: -50px; visibility: hidden;"></span>' +
         '<h2>Trainees</h2>';
 
@@ -19,16 +19,18 @@ function entryJsonInHtmlEn(jsonData) {
 
             output +=
                 '<div class="four columns">' +
-                '<a href="#' + trainee.modalId + '">' +
                 '<div id="round" style="width: 100%;">' +
+                '<a href="#' + trainee.modalId + '">' +
                 '<img class="aligncenter wp-image-131021 size-large" src="' + trainee.wpImgUrl + '" alt="' + trainee.imgAlt + '" width="760" height="783">' +
+                '</a>' +
                 '</div>' +
                 '<div class="profile-label">' +
-                '<h4>' + trainee.name_en + '</h4>' +
+                '<h4>' +
+                '<a href="#' + trainee.modalId + '">' + trainee.name_en + '</a>' +
+                '</h4>' +
                 '<h5>' + trainee.position_en + '</h5>' +
                 '<p>' + trainee.organization_en + '</p>' +
                 '</div>' +
-                '</a>' +
                 '</div>';
 
             output +=
@@ -92,12 +94,15 @@ function entryJsonInHtmlKm(jsonData) {
 
             output +=
                 '<div class="four columns">' +
-                '<a href="#' + trainee.modalId + '">' +
                 '<div id="round" style="width: 100%;">' +
+                '<a href="#' + trainee.modalId + '">' +
                 '<img class="aligncenter wp-image-131021 size-large" src="' + trainee.wpImgUrl + '" alt="' + trainee.imgAlt + '" width="760" height="783">' +
+                '</a>' +
                 '</div>' +
                 '<div class="profile-label">' +
-                '<h4>' + trainee.name_km + '</h4>' +
+                '<h4>' + 
+                '<a href="#' + trainee.modalId + '">' + trainee.name_km + '</a>' +
+                '</h4>' +
                 '<h5>' + trainee.position_km + '</h5>' +
                 '<p>' + trainee.organization_km + '</p>' +
                 '</div>' +
