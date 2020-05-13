@@ -180,8 +180,8 @@ entryJsonInHtmlEn(
         "name_km": "កុល លក្ខណា",
         "position_en": "Independent Consultant",
         "position_km": "ទីប្រឹក្សា​ឯករាជ្យ",
-        "organization_en": "Self-employed",
-        "organization_km": "ទីប្រឹក្សា​ឯករាជ្យ",
+        "organization_en": "",
+        "organization_km": "",
         "imgUrl": "https://drive.google.com/file/d/1a38uL66bxQO8Vs8tvjIJ2IHTLRbrDgCD/view?usp=sharing",
         "imgAlt": "kol-leakhana",
         "projectUrl": "-",
@@ -235,10 +235,10 @@ entryJsonInHtmlEn(
         "is_ready": "yes",
         "name_en": "MEN Vannavy",
         "name_km": "ម៉ែន វណ្ណាវី",
-        "position_en": "Freelance Consultant",
-        "position_km": "ទីប្រឹក្សា​ឯករាជ្យ",
-        "organization_en": "Self-employed",
-        "organization_km": "ទីប្រឹក្សា​ឯករាជ្យ",
+        "position_en": "Project Coordinator",
+        "position_km": "អ្នកសម្របសម្រួលគម្រោង",
+        "organization_en": "Terre des Hommes",
+        "organization_km": "អង្គការដែនដីមនុស្ស​-ហូឡង់ដ៏",
         "imgUrl": "https://drive.google.com/file/d/1EuAXt8Vuk9dyCP9KXLqJhT_C6cfbaXjl/view?usp=sharing",
         "imgAlt": "men-vannavy",
         "projectUrl": "-",
@@ -258,13 +258,13 @@ entryJsonInHtmlEn(
         "position_km": "អ្នក​តាមដាន​ និង​ការវាយតម្លៃ",
         "organization_en": "WorldFish",
         "organization_km": "វើល​ហ្វ៊ី​ស",
-        "imgUrl": "",
+        "imgUrl": "https://drive.google.com/file/d/1ebTUQYL17m_YC7U8SMw_JM3urJ22RMM5/view?usp=sharing",
         "imgAlt": "mith-samonn",
         "projectUrl": "-",
         "modalId": "mith-samonn",
-        "bio_en": "I understand that data forms an important part for handling his daily tasks, especially for situation analysis, decision making and planning. Though, I have firsthand experience in working with data, I feel there is a room for improving my skills in exploiting and interacting with different datasets more efficiently. Attending the Data Literacy Training, I aim at strengthen my skills in data mining and putting dataset together to find out most interesting story potentially hidden inside the data. Besides this, I am looking for opportunity for expanding my professional network for data sharing and for accessing to different datasets from different data sources. After the training, I expect to be more efficient in collecting and using secondary data from different sources for telling a story for the purpose of social development.",
+        "bio_en": "I understand that data forms an important part for handling my daily tasks, especially for situation analysis, decision making and planning. Though, I have firsthand experience in working with data, I feel there is a room for improving my skills in exploiting and interacting with different datasets more efficiently. Attending the Data Literacy Training, I aim at strengthen my skills in data mining and putting dataset together to find out most interesting story potentially hidden inside the data. Besides this, I am looking for opportunity for expanding my professional network for data sharing and for accessing to different datasets from different data sources. After the training, I expect to be more efficient in collecting and using secondary data from different sources for telling a story for the purpose of social development.",
         "bio_km": "ខ្ញុំ​យល់ថា​ ទិន្នន័យ​ជាផ្នែក​មួយ​ដ៏​សំខាន់​ក្នុង​ការអនុវត្ត​ការងារ​ប្រចាំថ្ងៃ​របស់ខ្ញុំ ជាពិសេស​សម្រាប់​ការវិភាគ​ស្ថានភាព ការសម្រេច​ចិត្ត និង​ការ​ធ្វើ​ផែនការ។ បើទោះបីជា​ខ្ញុំ​មានបទពិសោធន៍​ផ្ទាល់​ជាមួយ​ទិន្នន័យ ខ្ញុំ​មាន​អារម្មណ៍​ថា ខ្ញុំ​នៅ​មាន​ចំណុច​ត្រូវ​ពង្រឹង​ទាក់ទង​នឹង​ជំនាញ​ក្នុង​ការប្រើ​ប្រាស់​ទិន្នន័យ​ឱ្យ​កាន់តែ​មានប្រសិទ្ធភាព។ ក្នុង​ការចូលរួម​វគ្គ​បណ្តុះបណ្តាល​នេះ ខ្ញុំ​សង្ឃឹមថា ខ្ញុំ​អាច​ពង្រឹង​ជំនាញ​របស់ខ្ញុំ​ក្នុង​ការ​ទាញ​យក​ទិន្នន័យ និង​ដាក់​វា​បញ្ចូល​គ្នា ​ដើម្បី​អាច​ស្វែងរក​ព័ត៌មាន​ដែល​មាន​ភាព​ទាក់ទាញ ដែល​អាច​បង្កប់​នៅ​ក្នុង​ទិន្នន័យ​នោះ។ ក្រៅពី​នេះ​ដែរ ខ្ញុំ​ក៏​ចង់​សែ្វ​ងរ​កឱកាស​ពង្រីក​បណ្តាញ​ការងារ​សម្រាប់​ការចែក​រំលែក​ទិន្នន័យ និង​ការ​ចូល​ទៅ​ប្រើប្រាស់​ទិន្នន័យ​ពី​ប្រភព​ផ្សេង​ៗ។ បន្ទាប់ពី​វគ្គ​បណ្តុះបណ្តាល​នេះ ខ្ញុំ​រំពឹង​ថា ​នឹងអាចប្រមូល ​និង​ប្រើប្រាស់​ទិន្នន័យ​ពី​ប្រភព​ផ្សេង​ៗគ្នា​សម្រាប់​គោលបំណង​នៃ​ការ​អភិវឌ្ឍ​សង្គម​កាន់តែ​មានប្រសិទ្ធភាព។",
-        "wpImgUrl": "https://opendevelopmentcambodia.net/wp-content/uploads/sites/2/2017/11/Icon-User-green.png"
+        "wpImgUrl": "https://opendevelopmentcambodia.net/wp-content/uploads/sites/2/2020/05/mith-samonn-min.jpg"
       },
       {
         "surname": "NARA",
@@ -302,7 +302,7 @@ entryJsonInHtmlEn(
         "modalId": "nen-kimla",
         "bio_en": "In order to make a good decision, I have to gather data and analyst it significantly. Data could provide us a point of view or deep insight before decision making or changing. It will also contribute to some strategy, critical thinking for management team to betterment plan. From this intervention, I hope I could learn on how to use and fine data properly way, how to interpret data and publication, familiar with some tools on how to collect data, data visualization, write success story or impacts. I wish to produce a success story of Project Idea: Climate Smart Agriculture.",
         "bio_km": "ដើម្បី​អាច​សម្រេចចិត្ត​បាន​ត្រឹមត្រូវ ខ្ញុំ​ត្រូវ​ប្រមូល​ទិន្នន័យ ហើយធ្វើការ​វិភាគ​វា​ឱ្យ​បាន​ច្បាស់លាស់។ ទិន្នន័យ​អាច​ផ្តល់​ឱ្យ​យើង​នូវ​ទស្សនៈ​ ឬការយល់​ដឹង​ស៊ីជម្រៅ។ វា​ក៏​រួមចំណែក​ផ្តល់​នូវ​យុទ្ធ​សាស្រ្ត ការ​ត្រិះរិះ​ពិចារណា​សម្រាប់​ការគ្រប់គ្រង​ដើម្បី​បង្កើត​គម្រោង​ឱ្យ​កាន់តែ​ប្រសើរ។ ខ្ញុំ​សង្ឃឹមថា វគ្គបណ្តុះបណ្តាលនេះ​អាច​ជួយ​ឱ្យ​ខ្ញុំ​រៀន​ពី​វិធី​ស្វែងរក និង​ប្រើប្រាស់​ទិន្នន័យ​បាន​ត្រឹមត្រូវ វិធី​បកប្រែ​ទិន្នន័យ និង​ចេះ​ប្រើប្រាស់​ឧបករណ៍​ប្រើប្រាស់​ប្រមូល​ទិន្នន័យ បម្លែង​ទិន្នន័យ​ជា​រូបភាព និង​សរសេរ​ពី​ផល​នៃ​គម្រោង។ ខ្ញុំ​ចង់​បង្កើតរឿង​ជោគជ័យ​មួយ​ទាក់ទង​នឹង​គម្រោង \"កសិកម្មឆ្លាតវៃសម្របទៅនឹងអាកាសធាតុ​\"។",
-        "wpImgUrl": "https://opendevelopmentcambodia.net/wp-content/uploads/sites/2/2017/11/Icon-User-green.png"
+        "wpImgUrl": "https://opendevelopmentcambodia.net/wp-content/uploads/sites/2/2020/05/nen-kimla-min.jpg"
       },
       {
         "surname": "NOU",
